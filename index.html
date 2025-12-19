@@ -2,12 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
+    <title>Anjila Belbase | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- Sticky Top Bar -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">Anjila</div>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="kicker">Electrical Engineering • Controls • Automation</p>
+          <h1 class="title">Anjila Belbase</h1>
+          <p class="subtitle">
+            Controls Engineering Specialist @ Cirkul • USF EE (Dec 2025).
+            I build PLC/HMI systems, embedded IoT prototypes, and automation tools.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>Projects</h2>
+            <p>Some things I’ve built (placeholders for now — swap in your real ones anytime).</p>
+          </div>
+
+          <div class="grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="contact">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p>Let’s connect — internships, full-time roles, collabs, anything.</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-row">
+              <span class="label">Email</span>
+              <a class="value" href="mailto:belbaseanjila@gmail.com">belbaseanjila@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <span class="label">LinkedIn</span>
+              <a class="value" target="_blank" rel="noopener" href="https://www.linkedin.com/in/anjilab">
+                linkedin.com/in/anjilab
+              </a>
+            </div>
+            <div class="contact-row">
+              <span class="label">GitHub</span>
+              <a class="value" target="_blank" rel="noopener" href="https://github.com/anjila1">
+                github.com/anjila1
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Anjila Belbase • Built with GitHub Pages</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
