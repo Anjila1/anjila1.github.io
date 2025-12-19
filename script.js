@@ -7,27 +7,27 @@ const projects = [
   {
     title: "Distributed Multi-Agent Control (ESP32)",
     desc: "Placeholder: multiple agents coordinating via MQTT + consensus + fault tolerance.",
-    img: "./assets/projects/p2.jpg"
+    img: "https://picsum.photos/seed/p1/1200/800"
   },
   {
     title: "Smart Farming IoT Sensor System",
     desc: "Placeholder: sensor suite + cloud dashboard for microgreens cultivation monitoring.",
-    img: "./assets/projects/p3.jpg"
+    img: "https://picsum.photos/seed/p1/1200/800"
   },
   {
     title: "HMI Alarm + Diagnostics Platform",
     desc: "Placeholder: operator-facing alarms, diagnostics, timers, access control.",
-    img: "./assets/projects/p4.jpg"
+    img: "https://picsum.photos/seed/p1/1200/800"
   },
   {
     title: "PLC Case Packer / Conveyor Controls",
     desc: "Placeholder: ladder logic sequences, interlocks, and system states.",
-    img: "./assets/projects/p5.jpg"
+    img: "https://picsum.photos/seed/p1/1200/800"
   },
   {
     title: "Embedded Gesture-Controlled MP3 System",
     desc: "Placeholder: ESP32 + MPU6050 gestures to control DFPlayer Mini tracks/volume.",
-    img: "./assets/projects/p6.jpg"
+    img: "https://picsum.photos/seed/p1/1200/800"
   }
 ];
 
