@@ -2,7 +2,7 @@ const projects = [
   {
     title: "AutoTest AI — Commissioning Test Generator",
     desc: "Placeholder: AI tool that generates missing PLC commissioning test cases from logs/state transitions.",
-    img: "./assets/projects/p1.jpg"
+    img: "./assets/projects/p1.jpeg"
   },
   {
     title: "Distributed Multi-Agent Control (ESP32)",
